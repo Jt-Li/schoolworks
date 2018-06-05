@@ -1,0 +1,11 @@
+Q7: no, bc it doesn't display AA Authoritative Answer in the flag. 
+
+
+Q10: 1. dig . ns  		get ip of root which is 198.41.0.4
+2. dig @198.41.0.4 au ns  		get ip of au which is 58.65.254.73
+3. dig @58.65.254.73 edu.au ns 		get ip of edu.au which is 37.209.192.5
+4. dig @37.209.192.5 unsw.edu.au ns 	get ip of unsw.edu.au which is 129.94.0.192
+5. dig @129.94.0.192 cse.unsw.edu.au ns 	not available
+A: 2 DNS servers to query to get the authoritative answer.
+
+

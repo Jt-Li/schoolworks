@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block body_contents %}
+
+
+<div class="title"><h2>Search Result:</h2></div>
+
+{% for post in posts %}
+	<div class="post_details">
+	{{post|safe}}
+	</div>
+
+{% endfor %}
+
+
+
+
+
+{% endblock %}

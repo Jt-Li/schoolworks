@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block body_contents %}
+
+
+<div class="title"><h3>Search Result:</h3></div>
+{% for zid in result %}
+<div class="right_list">
+	<a href="https://cgi.cse.unsw.edu.au/~z5099187/ass2/UNSWtalk.cgi/user/{{zid}}">
+	<div class="friends_pic"><img src={{result[zid]['pic']}} width:150px height:150px></div>
+	<div class="friends_name"><h4>{{result[zid]['name']}}</h4></div></a>
+</div>
+{% endfor %}
+
+
+{% endblock %}

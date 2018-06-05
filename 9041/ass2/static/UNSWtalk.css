@@ -1,0 +1,98 @@
+/*
+ * written by Jiongtian Li October 2017
+ * as a starting point for COMP[29]041 assignment 2
+ * https://cgi.cse.unsw.edu.au/~cs2041/assignments/UNSWtalk/
+ *
+ * Change (or replace) the CSS below to create you own look-and-feel
+ *
+ * You will probably want to add  CSS to this file too
+ */
+
+.unswtalk_heading {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.unswtalk_user_details {
+    background-color: #ABCDEF;
+    color: #204142;
+    white-space: pre;
+    border:thin solid #204142;
+    border-radius: 1em;
+    padding-left: 0.42em;
+}
+
+/*post_details edit from https://dev.twitter.com/web/embedded-tweets/css */
+.post_details {
+  display: inline-block;
+  font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 25px;
+  border-color: #eee #ddd #bbb;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  margin: 10px 5px;
+  padding: 0 16px 16px 16px;
+  width: 1000px;
+  white-space: pre-line;
+}
+
+
+.unswtalk_button {
+    background-color: #FEDBCA;
+    border:thin solid #904142;
+    border-radius: 0.42em;
+    color: #904142;
+}
+
+.right_content{
+width:390px;
+float:left;
+padding:10px 0 10px 20px;
+}
+
+.title{
+font-size:18px;
+color:#000000;
+padding:10px 0 0 0px;
+font-family:Arial, Helvetica, sans-serif;
+}
+.right_list{
+float:left;
+width:300px;
+border-bottom:1px #CCCCCC dashed;
+padding:10px 0 8px 0;
+}
+.friends_pic{
+width:250px;
+height:250px;
+float:left;
+}
+.friends_name{
+width:200px;
+height:30px;
+float:left;
+text-align:justify;
+line-height:15px;
+padding:0 0 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
