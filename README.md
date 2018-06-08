@@ -1,6 +1,7 @@
 UNSW School Projects
 =====
------
+-------
+
 # COMP9021 Principles of Programming
 •Python<br>
 
@@ -26,6 +27,7 @@ UNSW School Projects
 
 ------
 ## COMP9414 Artificial Intelligence
+•Prolog Programming <br>
 •Introduce students to the main ideas and approaches in AI <br>
 •Including agent architectures, Prolog programming, search techniques, neural networks, machine learning, probabilistic reasoning and logical inference. 
 
